@@ -9,6 +9,7 @@ class ClasePrueba
         int suma = 0;
         int aprobados = 0;
         int reprobados = 0;
+        int varNueva;
 
         for (int i = 0; i < notas.Length; i++)
         {
@@ -19,6 +20,7 @@ class ClasePrueba
             else
                 reprobados++;
         }
+
 
         double promedio = (double)suma / notas.Length;
 
