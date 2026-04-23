@@ -25,5 +25,6 @@ class ClasePrueba
         Console.WriteLine($"Promedio: {promedio}");
         Console.WriteLine($"Aprobados: {aprobados}");
         Console.WriteLine($"Reprobados: {reprobados}");
+        Console.WriteLine("Cambio primario");
     }
 }
